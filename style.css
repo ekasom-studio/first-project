@@ -1,0 +1,286 @@
+.main{
+    text-decoration: none;
+    text-align: center;
+    font-size: medium;
+    color: rgb(5, 5, 5);
+    padding: 15px;
+    /* background: rgba(240, 255, 255, 0.568); */
+    font-weight: 600;
+}
+.main-head{
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    background: rgba(240, 255, 255, 0.692);
+}
+.main:hover{
+    background: aliceblue;
+}
+.body_top{
+    background: url(img/polygons.png);
+    width: 800px;
+    margin: 0 auto;
+    padding: 190px;
+    text-align: center; 
+    color: aliceblue;
+    box-sizing: border-box;
+    margin-top: 65px;
+}
+.body_top-description{
+    font-weight: 600;
+}
+.more{
+    margin: 15px 350px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    margin: 0 auto;
+}
+.body_bottom{
+    width: 800px;
+   
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.name{
+    text-align: center;
+    font-size: x-large;
+    /* background: white; */
+}
+.second_name{
+    text-align: center;
+}
+.text{
+    text-align: left;
+    width: 700px;
+}
+.logo{
+    width: 350px;
+    float: right;
+    /* height: 200px; */
+}
+.card{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 16px -4px rgba(34, 60, 80, 0.26);
+}
+.card_img{
+    width: 100%;
+}
+.card_name{
+    font-size: medium;
+    font-weight: 600;
+}
+.card_undername{
+    color: rgb(167, 164, 164);
+}
+.card_text{
+    font-size: medium;
+}
+.card_button{
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: darkcyan;
+    color: aliceblue;
+    padding: 5px;
+    width: 100%;
+}
+.card_button:hover{
+    background: white;
+    color: rgb(0, 0, 0);
+}
+.body_end{
+    background: rgb(104, 103, 103);
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+.pay{
+    color: aliceblue;
+    margin-top: 45px;
+}
+.pay2{
+    color: aliceblue;
+}
+.card_pay{
+    width: 450px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    vertical-align: middle;
+}
+.card_pay1{
+    text-align: center;
+    width: 450px;
+    margin: 20px;
+    display: inline-block;
+    background: white;
+}
+.card_pay1 p{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    margin: 0px;
+    padding: 10px 0;
+}
+.card_name1{
+    list-style-type: none;
+    padding: 15px 0;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.card_pay p{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    margin: 0;
+    padding: 10px 0;
+}
+.card_pay_wrapper{
+    background: rgb(165, 165, 165); 
+}
+li{
+    color: black;
+    font-size: large;
+    background: aliceblue;
+    padding: 13px;
+    text-align: center;
+    list-style-type: none;
+}
+.pay-text{
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    padding: 40px;
+    background:darkcyan;
+}
+span{
+    font-weight: 600;
+}
+.day{
+    font-size: small;
+    color: rgb(117, 116, 116);
+    display: block;
+    margin-top: 15px;
+}
+.buy{
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.buy:hover{
+    background: white;
+    color: black;
+}
+.card_pay_wrapper1{
+    background: rgb(165, 165, 165); 
+}
+.card_pay1_buy{
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.body_second_end{
+    background: rgb(214, 213, 213);
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+.contact{
+    text-align: center;
+}
+.contact_info{
+    margin-bottom: 10px;
+    
+}
+form{
+    text-align: center;
+}
+.address{
+    vertical-align: middle;
+}
+.phone{
+    vertical-align: middle;
+}
+.e-mail{
+    vertical-align: middle;
+}
+.address_text{
+    display: inline;
+}
+.phone_number{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.e-mail_number{
+    text-decoration: none;
+    color: dodgerblue;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    outline: none;
+}
+.sms{
+    background: #000;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    width: 170px;
+}
+.sms:hover{
+    background: aliceblue;
+    color: black;
+}
+.end_text{
+    background: #000;
+    color: aliceblue;
+    margin-top: 0px;
+}
+@media(max-width:576px){
+    .body_top{
+        width: 100%;
+        padding: 100px 10px;
+    }
+    .body_bottom{
+        width: 100%;
+    }
+    .logo{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .card_pay{
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+}
+@media(max-width:365px){
+    .main-head{
+        position: static;
+        color: brown;
+        padding: 0px;
+    }
+    .main{
+        display: block;
+    }
+    .body_top{
+        margin-top: 0px;
+    }
+    input{
+        box-sizing: border-box;
+    }
+}
